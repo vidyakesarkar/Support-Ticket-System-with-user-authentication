@@ -1,30 +1,4 @@
-
-
 ## Getting Started
-
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project.
-
-* [MongoDB Atlas](https://www.mongodb.com/atlas/database)
-  **Database**. Deploy a multi-cloud database.
-  The most advanced cloud database service on the market, with unmatched data distribution and mobility across AWS, Azure, and Google Cloud, built-in automation for resource and workload optimization, and so much more.
-* [MongoDB Compass](https://www.mongodb.com/products/compass)
-  **Compass**. The GUI for MongoDB.
-  Compass is an interactive tool for querying, optimizing, and analyzing your MongoDB data. Get key insights, drag and drop to build pipelines, and more.
-* [Express.js](https://expressjs.com/)
-  Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.
-* [React.js](https://reactjs.org/)
-  A JavaScript library for building user interfaces.
-* [Node.js](https://nodejs.org/en/)
-  Node.js is a free, open-sourced, cross-platform JavaScript run-time environment that lets developers write command line tools and server-side scripts outside of a browser.
-* [Redux Toolkit](https://redux-toolkit.js.org/)
-  The official, opinionated, batteries-included toolset for efficient Redux development.
-* [Postman](https://www.postman.com/)
-  Postman is an application used for API testing.
-
-
 ### Deployed On
 * [HEROKU](https://heroku.com/)
   
@@ -50,79 +24,6 @@ JWT_SECRET=<your_secret_key>
 ```
 
 Provided in the root of the project, a `.sample.env` for guidance.
-
-
-### Folder Structure
-
-```
-├── README.md
-├── backend
-│   ├── config
-│   │   └── db.js
-│   ├── controllers
-│   │   ├── noteController.js
-│   │   ├── ticketController.js
-│   │   └── userController.js
-│   ├── middleware
-│   │   ├── authMiddleware.js
-│   │   └── errorMiddleware.js
-│   ├── models
-│   │   ├── noteModel.js
-│   │   ├── ticketModel.js
-│   │   └── userModel.js
-│   ├── routes
-│   │   ├── noteRoutes.js
-│   │   ├── ticketRoutes.js
-│   │   └── userRoutes.js
-│   └── server.js
-├── frontend
-│   ├── README.md
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── public
-│   │   ├── favicon.ico
-│   │   ├── index.html
-│   │   ├── logo192.png
-│   │   ├── logo512.png
-│   │   ├── manifest.json
-│   │   └── robots.txt
-│   └── src
-│       ├── App.js
-│       ├── app
-│       │   └── store.js
-│       ├── components
-│       │   ├── BackButton.jsx
-│       │   ├── Header.jsx
-│       │   ├── NoteItem.jsx
-│       │   ├── PrivateRoute.jsx
-│       │   ├── Spinner.jsx
-│       │   └── TicketItem.jsx
-│       ├── features
-│       │   ├── auth
-│       │   │   ├── authService.js
-│       │   │   └── authSlice.js
-│       │   ├── notes
-│       │   │   ├── noteService.js
-│       │   │   └── noteSlice.js
-│       │   └── tickets
-│       │       ├── ticketService.js
-│       │       └── ticketSlice.js
-│       ├── hooks
-│       │   └── useAuthStatus.js
-│       ├── index.css
-│       ├── index.js
-│       ├── pages
-│       │   ├── Home.jsx
-│       │   ├── Login.jsx
-│       │   ├── NewTicket.jsx
-│       │   ├── Register.jsx
-│       │   ├── Ticket.jsx
-│       │   └── Tickets.jsx
-│       └── serviceWorker.js
-├── node_modules
-├── package-lock.json
-└── package.json
-```
 
 ### Run backend & frontend servers concurrently
 
