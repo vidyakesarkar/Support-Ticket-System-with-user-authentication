@@ -202,6 +202,3 @@ git push heroku master
 And within a few seconds, your application will be live at [https://support-desk-mern-arifmd.herokuapp.com/](https://support-desk-mern-arifmd.herokuapp.com/).
 
 
-## Author(s)
-
-- **Mohammad Arif** - [mdarif](https://github.com/mdarif)
